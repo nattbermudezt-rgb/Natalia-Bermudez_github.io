@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>George Brown College</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body> 
+
+  <!-- barra de busqueda/ log in -->
+ <div id="topSearchBar">
+
+  <form class="searchForm">
+    <input type="text" placeholder="Search">
+    <button>Search</button>
+  </form>
+
+  <div class="loginArea">
+    <a href="#" class="loginBtn">Log In</a>
+  </div>
+
+</div>
+
+
+
+  <!-- HEADER -->
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>George Brown College</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+
+  <header id="siteHeader">
+
+    <!-- MAIN NAVIGATION -->
+    <nav id="mainNav">
+      <div class="navContainer">
+
+        <!-- LOGO -->
+        <div class="navLogo">
+          <img src="images/gbc-logo.svg" alt="George Brown Logo">
+        </div>
+
+        <!-- MENU -->
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+
+          <li class="dropdown">
+            <a href="admissions.html">Admissions ▾</a>
+            <ul class="submenu">
+              <li><a href="#">Requirements</a></li>
+              <li><a href="#">How to Apply</a></li>
+              <li><a href="#">Accept Your Offer</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="programs.html">Programs ▾</a>
+            <ul class="submenu">
+              <li><a href="#">Program Availability</a></li>
+              <li><a href="#">Degrees</a></li>
+              <li><a href="#">Postgraduate Programs</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="tuition.html">Tuition ▾</a>
+            <ul class="submenu">
+              <li><a href="#">Tuition Fees</a></li>
+              <li><a href="#">Financial Aid</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="about.html">About ▾</a>
+            <ul class="submenu">
+              <li><a href="#">Campuses</a></li>
+              <li><a href="#">News & Events</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+  </header>
+
+
+
+  <!-- HERO / MAIN CARROUSEL -->
+  <section id="heroSlider">
+
+    <div class="slide active">
+      <div class="slide-bg" style="background-image: url('Imagenes carrousel/diseño.jpg');"></div>
+
+      <img class="slide-main-image" src="Imagenes carrousel/diseño.jpg" alt="George Brown campus slide 1">
+
+      <div class="slideText">
+        <h2>Welcome to George Brown School of Design</h2>
+        <p>Explore creative education, student life, and future opportunities.</p>
+        <a href="programs.html" class="btn">Explore Programs</a>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-bg" style="background-image: url('Imagenes carrousel/GBC.jpg');"></div>
+
+      <img class="slide-main-image" src="Imagenes carrousel/GBC.jpg" alt="George Brown campus slide 2">
+
+      <div class="slideText">
+        <h2>Admissions Made Simple</h2>
+        <p>Find requirements, application steps, and how to accept your offer.</p>
+        <a href="admissions.html" class="btn">View Admissions</a>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-bg" style="background-image: url('Imagenes carrousel/future.jpg');"></div>
+
+      <img class="slide-main-image" src="Imagenes carrousel/future.jpg" alt="George Brown campus slide 3">
+
+      <div class="slideText">
+        <h2>Your Creative Future Starts Here</h2>
+        <p>Explore programs, meet students, and discover opportunities at George Brown School of Design.</p>
+        <a href="tuition.html" class="btn">Learn More</a>
+      </div>
+    </div>
+
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+
+    <div class="sliderDots">
+      <span class="dot activeDot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+  </section>
+
+
+  <!-- FIND YOUR PROGRAM -->
+  <section id="findProgram">
+    <div class="programLeft">
+      <h2>Find your program</h2>
+      <p>Select your student type to explore programs available at George Brown College.</p>
+
+      <div class="programButtons">
+        <a href="programs.html" class="programBtn">Domestic Students</a>
+        <a href="programs.html" class="programBtn">International Students</a>
+      </div>
+    </div>
+
+    <div class="programRight">
+      <div class="programInfoBox">
+        <h3>Visit George Brown</h3>
+        <p>Explore our campuses and discover student life in downtown Toronto.</p>
+      </div>
+
+      <div class="programInfoBox">
+        <h3>Apply now</h3>
+        <p>Learn how to apply and begin your academic journey.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- WHY GEORGE BROWN -->
+  <section id="whyGeorgeBrown">
+    <div class="whyOverlay">
+      <h2>Why George Brown?</h2>
+      <h3>National leader in design education</h3>
+      <h4>We learn by doing.</h4>
+
+      <div class="trophyIcon">
+        <i class="fa-solid fa-trophy"></i>
+      </div>
+
+    
+
+  <p>
+        George Brown offers hands-on education, real-world experience, and creative opportunities
+        that prepare students for the future. Study in a dynamic environment where design,
+        innovation, and industry connections come together.
+      </p>
+
+      <div class="whyStats">
+        <div class="statBox">
+          <h4>Creative</h4>
+          <p>Programs</p>
+        </div>
+
+        <div class="statBox">
+          <h4>Hands-on</h4>
+          <p>Learning</p>
+        </div>
+
+        <div class="statBox">
+          <h4>Downtown</h4>
+          <p>Toronto</p>
+        </div>
+
+        <div class="statBox">
+          <h4>Career</h4>
+          <p>Focused</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN SECTIONS -->
+  <main>
+    <section id="quickLinks">
+      <h2>Explore George Brown</h2>
+      <p>Discover the key sections of the website and find the information you need.</p>
+
+      <div class="cardContainer">
+        <article class="infoCard">
+          <h3>Admissions</h3>
+          <p>Review admission requirements, application steps, and offer acceptance details.</p>
+          <a href="admissions.html">Learn More</a>
+        </article>
+
+        <article class="infoCard">
+          <h3>Programs</h3>
+          <p>Browse available programs, degree pathways, and postgraduate studies.</p>
+          <a href="programs.html">Learn More</a>
+        </article>
+
+        <article class="infoCard">
+          <h3>Tuition</h3>
+          <p>Find tuition fees, study costs, and financial support resources.</p>
+          <a href="tuition.html">Learn More</a>
+        </article>
+
+        <article class="infoCard">
+          <h3>About</h3>
+          <p>Learn about campuses, locations, college news, events, and contact information.</p>
+          <a href="about.html">Learn More</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="featuredInfo">
+      <div class="featuredBox">
+        <h3>Program Availability</h3>
+        <p>Check current program options and academic pathways for future students.</p>
+      </div>
+
+      <div class="featuredBox">
+        <h3>Financial Aid</h3>
+        <p>Explore funding resources and support available to students.</p>
+      </div>
+
+      <div class="featuredBox">
+        <h3>Campuses & Locations</h3>
+        <p>Discover George Brown locations and learn more about campus life in Toronto.</p>
+      </div>
+    </section>
+
+
+    <section id="campusImage">
+
+  <img src="Imagenes carrousel/banner.jpg" alt="George Brown campus">
+
+</section>
+
+
+    <!-- VIDEO GALLERY -->
+    <section id="videoGallery">
+      <h2>Explore Our Programs</h2>
+      <p>Watch videos and discover creative opportunities at George Brown School of Design.</p>
+
+          <!-- VIDEO 1 -->
+
+
+      <div class="videoGalleryGrid">
+
+        <div class="videoItem">
+          <video controls>
+            <source src="Imagenes carrousel/School of Design George Brown Polytechnic.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <h3>Graphic Design</h3>
+        </div>
+
+<!-- VIDEO 2 -->
+
+        <div class="videoItem">
+          <video controls>
+            <source src="Imagenes carrousel/Culinary.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <h3>Culinary</h3>
+        </div>
+
+<!-- VIDEO 3 -->
+
+        <div class="videoItem">
+          <video controls>
+            <source src="Imagenes carrousel/Construction.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <h3>Construction</h3>
+        </div>
+
+ <!-- VIDEO 4 -->
+
+        <div class="videoItem">
+          <video controls>
+            <source src="Imagenes carrousel/Tech.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <h3>Tech</h3>
+        </div>
+
+ <!-- VIDEO 5 -->
+
+        <div class="videoItem">
+          <video controls>
+            <source src="Imagenes carrousel/Business.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <h3>Business</h3>
+        </div>
+
+ <!-- VIDEO 6 -->
+        <div class="videoItem">
+        <video controls>
+        <source src="Imagenes carrousel/Nursing.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <h3>Nursing</h3>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="mainFooter">
+    <div class="footerBox">
+      <h4>George Brown College</h4>
+      <p>School of Design</p>
+    </div>
+
+    <div class="footerBox">
+      <h4>Contact</h4>
+      <p>Email: info@georgebrown.ca</p>
+      <p>Toronto, Ontario</p>
+    </div>
+
+    <div class="footerBox">
+      <h4>Links</h4>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="admissions.html">Admissions</a>
+    </div>
+
+
+    <div class="footerBottom">
+
+    <img src="Imagenes carrousel/GBCLogo blanco.png" alt="George Brown Logo" class="footerLogo">
+
+    <div class="footerSocial">
+
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+
+    </div>
+
+    </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
